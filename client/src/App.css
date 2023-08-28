@@ -1,0 +1,94 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white !important;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.options ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.options li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.contact li:not(:last-child) {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-weight: bold;
+  color: blue;
+}
+
+.details {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+
+.my-info {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.picture img {
+  max-width: 100%;
+}
+
+.card {
+  background-color: #53585f;
+}
+
+.footer {
+  position: static;
+  top: 100%;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  gap: 400px;
+  justify-content: center;
+}
+
+.stuff ul {
+  flex: -1;
+  list-style-type: none;
+}
+
+.copy ul {
+  flex: -1;
+  list-style-type: none;
+}
+
+.resume {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
